@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-30T18:23:25 GMT+05:00" name="Assignment6 Suite" finished-at="2026-01-30T18:24:38 GMT+05:00" duration-ms="73568">
+    <groups>
+    </groups>
+    <test started-at="2026-01-30T18:23:25 GMT+05:00" name="Login DDT" finished-at="2026-01-30T18:24:38 GMT+05:00" duration-ms="73568">
+      <class name="tests.LoginDDTTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:25 GMT+05:00" name="setUp" finished-at="2026-01-30T18:23:30 GMT+05:00" duration-ms="5380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:30 GMT+05:00" name="loginDDT" data-provider="loginData" finished-at="2026-01-30T18:23:34 GMT+05:00" duration-ms="3693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SUCCESS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:34 GMT+05:00" name="tearDown" finished-at="2026-01-30T18:23:35 GMT+05:00" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:35 GMT+05:00" name="setUp" finished-at="2026-01-30T18:23:41 GMT+05:00" duration-ms="5996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:41 GMT+05:00" name="loginDDT" data-provider="loginData" finished-at="2026-01-30T18:23:47 GMT+05:00" duration-ms="5147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:47 GMT+05:00" name="tearDown" finished-at="2026-01-30T18:23:48 GMT+05:00" duration-ms="1225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:48 GMT+05:00" name="setUp" finished-at="2026-01-30T18:23:54 GMT+05:00" duration-ms="5983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:54 GMT+05:00" name="loginDDT" data-provider="loginData" finished-at="2026-01-30T18:23:59 GMT+05:00" duration-ms="5045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wronguser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:23:59 GMT+05:00" name="tearDown" finished-at="2026-01-30T18:24:00 GMT+05:00" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:00 GMT+05:00" name="setUp" finished-at="2026-01-30T18:24:05 GMT+05:00" duration-ms="4589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:05 GMT+05:00" name="loginDDT" data-provider="loginData" finished-at="2026-01-30T18:24:09 GMT+05:00" duration-ms="4291" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC04]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wronguser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[wrongpassword]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:09 GMT+05:00" name="tearDown" finished-at="2026-01-30T18:24:10 GMT+05:00" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:10 GMT+05:00" name="setUp" finished-at="2026-01-30T18:24:17 GMT+05:00" duration-ms="6706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:17 GMT+05:00" name="loginDDT" data-provider="loginData" finished-at="2026-01-30T18:24:23 GMT+05:00" duration-ms="6193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC05]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:23 GMT+05:00" name="tearDown" finished-at="2026-01-30T18:24:24 GMT+05:00" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:24 GMT+05:00" name="setUp" finished-at="2026-01-30T18:24:31 GMT+05:00" duration-ms="6485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginDDT(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:31 GMT+05:00" name="loginDDT" data-provider="loginData" finished-at="2026-01-30T18:24:37 GMT+05:00" duration-ms="6294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC06]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ERROR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginDDTTest@4c1d9d4b]" started-at="2026-01-30T18:24:37 GMT+05:00" name="tearDown" finished-at="2026-01-30T18:24:38 GMT+05:00" duration-ms="1166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginDDTTest -->
+    </test> <!-- Login DDT -->
+  </suite> <!-- Assignment6 Suite -->
+</testng-results>
